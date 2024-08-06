@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('imagen/white_brick.png') ;   
+    
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.encabezado-titulo{
+    align-content: flex-start;   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 60px;
+}
+
+.container-seccion{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    justify-content:space-between ;
+}
+.container-seccion-input{
+    height: 30%;
+    box-shadow: 6px 6px 20px 6px rgba(1, 8, 14, 0.15);
+    border: none;
+    border-radius: 10px;
+}
+.container-botones{
+    display: flex;    
+    gap: 2em;
+}
+.container-boton{
+    border-radius: 24px;
+    background: rgb(6, 10, 243, 0.5);
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0,0,0);
+    border: none;
+    margin-top: 2rem;
+}
+.container-boton:hover{
+    cursor: pointer;
+}
+
+.container_derecho{
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    height: 450px;
+    flex-direction: column;
+    background-color: white;    
+    border-radius: 10px;    
+    box-shadow: 6px 6px 20px 6px rgba(1, 8, 14, 0.15);
+    
+}
+#cd-h2{
+    padding-bottom: 1em;
+}
+#cd-ingrese{
+    padding-top: 1em;
+}
+hr{
+    width: 80%;
+    background-color: rgb(9, 97, 16) ;
+    height: 0.5em;
+    margin: auto;
+}
+.container_derecho_interno{
+    display: flex;
+    flex-direction: column;
+    padding:1em 0 1em 0 ;
+    text-align: center;
+}
+footer{
+    margin-top: 5px;
+    padding: 10px 0px 5px 5px;
+    background-color: rgb(9, 97, 16);
+}

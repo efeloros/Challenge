@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagen/logo csi.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Desafio 1</title>
+</head>
+<body>
+    <header class="encabezado">
+        <a href=""> <img src="./imagen/logocsi2023.png" alt="logo"></a>
+        <div class="encabezado-titulo">
+            <h1 id="encabezado-titulo"></h1>
+        </div>        
+    </header>
+    <div class="container">
+        <section class="container-seccion">            
+            <input id="texto" class="container-seccion-input" type="text" placeholder="Ingrese el texto aqui...">
+            <p id="container-infor"><img src="imagen/bi_exclamation-circle-fill.png" alt="icono"></p>
+            <div class="container-botones">
+                <button class="container-boton" onclick="encriptar()">Encriptar</button>
+                <button class="container-boton" onclick="desencriptar()">Desencriptar</button>
+
+            </div>
+        </section>
+        <div class="container_derecho">
+            <div class="container_derecho_interno">
+                <h2 id="cd-h2"></h2>
+                <hr>
+                <p id="cd-ingrese"></p>
+            </div>
+            <div class="container-botones">
+                <button id="copiar" class="container-boton" onclick="copyText()">Copiar</button>
+            </div>
+            
+        </div>
+
+    </div>
+    <footer>
+        <p>Fidel Antonio Peñaloza oros 2024</p>
+    </footer>
+    <script src="main.js"></script>    
+</body>
+</html>
